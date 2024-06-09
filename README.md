@@ -3,7 +3,6 @@
 ### Linux / Macos
 ```
 git clone https://github.com/GauravDhanraja/neovim-config.git ~/.config/nvim
-
 ```
 # To uninstall
 

@@ -1,6 +1,7 @@
 {
     "diagnostics.globals": [
         "vim",
-        "none_ls"
+        "none_ls",
+        "cmp"
     ]
 }

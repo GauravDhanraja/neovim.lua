@@ -41,6 +41,8 @@ The `<leader>` key is mapped to spacebar <br />
 | `<leader>gf` 	| Format code                  	|
 | `<leader>lg` 	| LazyGit CLI                  	|
 
+<br />
+
 # To uninstall
 
 **Linux / Macos**

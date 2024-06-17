@@ -3,10 +3,10 @@ vim.g.maplocalleader = " "
 
 vim.opt.undofile = true
 
-vim.cmd('set expandtab')
-vim.cmd('set tabstop=4')
-vim.cmd('set softtabstop=4')
-vim.cmd('set shiftwidth=4')
+vim.opt.expandtab = true
+vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
+vim.opt.shiftwidth = 2
 
 vim.opt.number = true
 vim.opt.cursorline = true
@@ -27,10 +27,6 @@ vim.opt.timeoutlen = 300
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
-vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
-vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
-vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
-vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 
 vim.api.nvim_create_autocmd('TextYankPost', {
   desc = 'Highlight when yanking (copying) text',

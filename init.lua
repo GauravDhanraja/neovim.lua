@@ -16,8 +16,8 @@ vim.opt.signcolumn = 'yes'
 vim.opt.clipboard = 'unnamedplus'
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
---vim.opt.ignorecase = true
---vim.opt.smartcase = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
 
 vim.opt.breakindent = true
 
@@ -27,6 +27,10 @@ vim.opt.timeoutlen = 300
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
+vim.keymap.set('n', '<c-k>', ':wincmd k<CR>')
+vim.keymap.set('n', '<c-j>', ':wincmd j<CR>')
+vim.keymap.set('n', '<c-h>', ':wincmd h<CR>')
+vim.keymap.set('n', '<c-l>', ':wincmd l<CR>')
 
 vim.api.nvim_create_autocmd('TextYankPost', {
   desc = 'Highlight when yanking (copying) text',

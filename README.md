@@ -2,7 +2,7 @@
 
 **Linux / Macos**
 ```
-git clone https://github.com/GauravDhanraja/neovim-config.git ~/.config/nvim
+git clone https://github.com/GauravDhanraja/neovim.lua.git ~/.config/nvim
 ```
 
 Remove the `.git` folder, so you can add it to your own repo later.

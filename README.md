@@ -10,12 +10,6 @@ Remove the `.git` folder, so you can add it to your own repo later.
 rm -rf ~/.config/nvim/.git
 ```
 
-Open Neovim
-```
-nvim
-```
-Run `:MasonInstallAll` command after `lazy.nvim` finishes downloading plugins. <br />
-
 ### Update
 `:Lazy sync` command
 

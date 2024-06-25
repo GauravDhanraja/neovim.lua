@@ -36,10 +36,9 @@ The `<leader>` key is mapped to spacebar <br />
 | `<leader>fb` 	| Search open buffers          	|
 | `<leader>fh` 	| Search help tags             	|
 | `K`        	| Code hover                   	|
-| `gd`       	| Code definition              	|
 | `<leader>ca` 	| Code actions                 	|
 | `<leader>gf` 	| Format code                  	|
-| `<leader>lg` 	| LazyGit CLI                  	|
+| `<leader>lg` 	| LazyGit UI                  	|
 
 <br />
 

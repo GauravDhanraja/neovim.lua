@@ -37,8 +37,8 @@ return {
             completion = { completeopt = "menu,menuone,noinsert" },
 
             mapping = cmp.mapping.preset.insert({
-                ['<C-j>'] = cmp.mapping.select_next_item(),
-                ['<C-k>'] = cmp.mapping.select_prev_item(),
+                ["<C-j>"] = cmp.mapping.select_next_item(),
+                ["<C-k>"] = cmp.mapping.select_prev_item(),
                 ["<C-b>"] = cmp.mapping.scroll_docs(-4),
                 ["<C-f>"] = cmp.mapping.scroll_docs(4),
                 ["<CR>"] = cmp.mapping.confirm({ select = true }),
@@ -54,7 +54,6 @@ return {
                         luasnip.jump(-1)
                     end
                 end, { "i", "s" }),
-
             }),
             sources = {
                 { name = "nvim_lsp" },

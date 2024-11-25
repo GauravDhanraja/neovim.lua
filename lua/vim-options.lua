@@ -3,15 +3,21 @@ vim.opt.swapfile = false
 vim.opt.backup = false
 
 vim.opt.expandtab = true
-vim.opt.tabstop = 4
+vim.opt.tabstop = 2
 vim.opt.softtabstop = -1
-vim.opt.shiftwidth = 4
+vim.opt.shiftwidth = 2
+vim.opt.smarttab = true
 vim.opt.breakindent = true
+vim.opt.autoindent = true
+vim.opt.smartindent = true
+vim.opt.backspace = { "start", "eol", "indent" }
+vim.opt.wrap = false
 
 vim.opt.number = true
 vim.opt.cursorline = true
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
+vim.opt.sidescrolloff = 8
 
 vim.opt.clipboard = "unnamedplus"
 vim.opt.ignorecase = true
@@ -25,7 +31,4 @@ vim.opt.updatetime = 250
 vim.opt.splitright = true
 vim.opt.splitbelow = true
 
-vim.keymap.set("n", "<C-k>", ":wincmd k<CR>")
-vim.keymap.set("n", "<C-j>", ":wincmd j<CR>")
-vim.keymap.set("n", "<C-h>", ":wincmd h<CR>")
-vim.keymap.set("n", "<C-l>", ":wincmd l<CR>")
+vim.g.markdown_recommended_style = 0
